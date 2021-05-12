@@ -1,0 +1,293 @@
+
+
+body{
+	background-image:url('../images/banking.jpeg');
+	background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ background-size:cover;
+z-index: 1;
+
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+	opacity:0.7;
+	
+}
+*{
+
+  margin:0;
+
+  padding:0;
+
+  font-family:verdana;
+
+  font-size:16px;
+
+}
+
+.abc{
+
+  position:fixed;
+  top:1px;
+
+  width:100%;
+
+  height:60px;
+
+  transition:.7s;
+z-index:4;
+}
+
+nav{
+
+  width: 100%;
+
+  height: 50px;
+
+  background-color: white;
+
+  line-height: 50px;
+   z-index:3;
+}
+
+nav ul{
+
+  float: right;
+
+  margin-right: 30px;
+
+}
+
+nav ul li{
+
+  list-style-type: none;
+
+  display: inline-block;
+
+  transition: 0.7s all;
+
+}
+
+nav ul li:hover{
+
+  background-color:#7FFF00;
+
+}
+
+nav ul li a{
+
+  text-decoration: none;
+
+  color: black;
+
+  padding: 30px;
+
+}
+
+
+.top-right1 {
+
+	position: absolute;
+
+	top: 50px;
+
+	right: 35px;
+
+	padding:10px 20px;
+
+	margin: 20px;
+
+	background-color:green;
+
+	border-radius:10px;
+
+	color:white;
+
+	font-size:16px;
+
+}
+
+.top-right2 {
+
+	position: absolute;
+
+	top: 50px;
+
+	right: 155px;
+
+	padding:10px 20px;
+
+	margin: 20px;
+
+	background-color:green;
+
+	border-radius:10px;
+
+	color:white;
+
+	font-size:16px;
+
+}
+
+.top-right1:hover{
+
+	background-color:lawngreen;
+
+	transition: 0.7s;
+
+}
+
+.top-right2:hover{
+
+	background-color:lawngreen;
+
+	transition:0.7s;
+
+}
+
+.box {
+    width: 500px;
+    margin: 200px 0;
+    position:relative;
+    top:100px;
+    left:800px;
+   
+}
+
+.shape1{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color:  #33cc33;
+    border-radius: 80px;
+    float: left;
+    margin-right: -50px;
+}
+.shape2 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color:  #33cc33;
+    border-radius: 80px;
+    margin-top: -30px;
+    float: left;
+}
+.shape3 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #33cc33;
+    border-radius: 80px;
+    margin-top: -30px;
+    float: left;
+    margin-left: -31px;
+}
+.shape4 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color:  #33cc33;
+    border-radius: 80px;
+    margin-top: -25px;
+    float: left;
+    margin-left: -32px;
+}
+.shape5 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color:  #33cc33;
+    border-radius: 80px;
+    float: left;
+    margin-right: -48px;
+    margin-left: -32px;
+    margin-top: -30px;
+}
+.shape6 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color:  #33cc33;
+    border-radius: 80px;
+    float: left;
+    margin-right: -20px;
+    margin-top: -35px;
+}
+.shape7 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color:  #33cc33;
+    border-radius: 80px;
+    float: left;
+    margin-right: -20px;
+    margin-top: -57px;
+}
+.float {
+    position: absolute;
+    z-index: 2;
+}
+
+.form {
+    margin-left: 145px;
+    position:relative;
+    top:30px;
+    left:20px;
+}
+.text-white{
+	font-family:Optima, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	font-stretch:extra-expanded;
+}
+.form-control{
+	padding:12px 20px;
+	border-radius:12px;
+	width:180px;
+	height:10px;
+	border-color:#196619;
+	
+}
+.btn-info{
+	 background-color:#0f3e0f; 
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:10px;
+  position:relative;
+  top:20px;
+  left:40px;
+  
+}
+.btn-info:hover{background-color:#1aff1a}
+.btn-info:active{
+	 background-color: #00331a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.bs{
+	position:relative;
+	font-family:"sans-serif";
+	top:180px;
+	left:-470px;
+	font-weight:bold;
+	
+}
+.lg{
+	position:fixed;
+    top:-90px;
+    z-index:5;
+    margin:20px;
+    height:50px;
+    width:50px;
+}
